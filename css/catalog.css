@@ -1,0 +1,142 @@
+body {
+  padding: 80px 100px;
+	font-family: sans-serif;
+	background: #849D8F;
+}
+
+fieldset {
+  border: none;
+  font-family: Helvetica;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 16px;
+}
+
+.timetable {
+  font-family: Helvetica;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: right;
+line-height: 16px;
+}
+
+.catalogicecream {
+ display: flex;
+ flex: column;
+ }
+.icecream-list {
+  margin-top: 50px;
+  display: flex;
+  flex:column;
+
+}
+
+.main-header {
+
+  margin-bottom: 75px;
+  min-height: 126px
+
+}
+
+.main-navigation {
+  display: flex;
+  margin-bottom: 75px;
+  padding: 20px;
+  flex-direction: row;
+
+
+
+}
+
+.breadcrumbs a {
+  align-items: flex-start;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  color: #aba9a7;
+}
+
+.filters {
+  display:flex;
+
+}
+
+
+
+.user-navigation {
+
+}
+}
+
+.button {
+	display: inline-block;
+	margin: 20px;
+	padding: 10px 20px;
+	opacity: 0.99
+
+	border-radius: 40px;
+	border: 3px solid #afafaf;
+	background: #F8F7F4;
+	color: #585a5e;
+
+	font: inherit;
+}
+
+.button:focus {
+	outline: none;
+	box-shadow:
+		0 0 0 3px #fff,
+		0 0 0 6px #2f7cc0;
+}
+
+.button:active {
+	border-color: #4777a6;
+	background: #4e87c0;
+	color: #fff;
+}
+
+.catalog-title {
+  font-family: Helvetica;
+  font-size: 35px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+
+}
+.fatcontent-filer {
+  font-family: Helvetica;
+ font-size: 14px;
+ color: #FFFFFF;
+ letter-spacing: 10;
+ line-height: 16px;
+}
+
+.sorting {
+  font-family: Helvetica;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 16px;
+}
+
+.pricerange {
+  font-family: Helvetica;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 16px;
+}

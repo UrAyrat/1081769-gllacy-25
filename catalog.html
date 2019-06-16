@@ -3,37 +3,52 @@
 <head>
   <meta charset="utf-8">
   <title>Сливочное морожное</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/catalog.css" rel="stylesheet">
 </head>
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav>
-      <ul>
-        <li> <a href="index.html">Главная</a></li>
-        <li> <a href="index.html">Каталог</a>/li>
-        <li> <a href="index.html">Сливочное</a>/li>
-      </ul>
-      <a class="glacyshop"> <img src="logo/glacyshop" width="154" height="64"
+      <a class="glacyshop"> <img src="img/glacyshop" width="154" height="64"
       alt="Логотип Глейси шоп"</a>
-      <ul>
+
+      <ul class=main-navigation>
         <li><a href="#">Каталог</a></li>
         <li><a href="#">Доставка и оплата</a></li>
         <li><a href="#">О компании</a></li>
-        <form>
+        <form class="search-navigation">
           <input type="search">
           <input type="submit" value="Найти">
                   </form>
-      <ul class="user-navigation">
-         <li class="login-link">Вход</li>
-       </ul>
-       <form>
-           <button>2товара</button>
-      </form>
-    </nav>
+      <li>
+         <a class="login-link">Вход</ai>
+       </li>
+           <a class="basket">2товара</a>
+</nav>
+</header>
+<ul class="breadcrumbs">
+    <li>
+      <a href="index.html">Главная</a>
+    </li>
+    <li>
+      <a href="catalog.html">Каталог</a>
+    </li>
+    <li class="breadcrumbs-current">Сливочное</li>
+   </ul>
+    <ul class="timetable">
+    <li><p>с 10 до 20, ежедневно</p></li>
+    <li><p>8812450-25-25</p></li>
+    </ul>
+
+
+
     <main>
-      <h1>Сливочное мороженое</h1>
+      <h1 class="catalog-title">Сливочное мороженое</h1>
+      <div class="catalogicecream">
+
       <section class="filters">
         <fieldset>
-          <legend>Жирность</legend>
+          <legend class="fatcontent-filer">Жирность</legend>
            <ul>
              <li class="clyarnost"><input class="visually-hiden filter input
                filter-input-radio" type="radio" name="clyarnost-group" value="">0%</li>
@@ -46,13 +61,13 @@
              </ul>
         </fieldset>
         <fieldset>
-          <legend>Сортировка</legend>
+          <legend class="sorting">Сортировка</legend>
         </fieldset>
         <fieldset>
-          <legend>Цена: 100р - 800р</legend>
+          <legend class="pricerange">Цена: 100р - 800р</legend>
         </fieldset>
        <fieldset>
-         <legend>
+         <legend class="pricerange">
            Наполнители
          </legend>
          <ul>
@@ -65,9 +80,10 @@
        </fieldset>
      </section>
 
-       <div class="catalogicecream"
-      <ul>
-        <li><a class="catalogicecream-item"> <img src="img/1_1.png" width="267" height="267"
+       <section class="morogenoe">
+      <ul class="icecream-list">
+        <li>
+<a class="catalogicecream-item"> <img src="img/1_1.png" width="267" height="267"
           alt="Сливочное с апельсиновым джемом и цитрусовой стружкой"> </a> </li>
 
           <li><a class="catalogicecream-item"> <img src="img/1_2.png" width="267" height="267"
@@ -87,17 +103,10 @@
                     alt="Сливочно-лимонное с карамельной присыпкой"> </a> </li>
             <li><a class="catalogicecream-item"> <img src="img/2_3.png" width="267" height="267"
             alt="Сливочное с шоколадной стружкой"> </a> </li>
-            <li><a class="catalogicecream-item"> <img src="img/3_1.png" width="267" height="267"
-            alt="Сливочно-ванильное с кусочками шоколада "> </a> </li>
-          <li><a class="catalogicecream-item"> <img src="img/3_2.png" width="267" height="267"
-        alt="Сливочноe с ментоловым сиропом"> </a> </li>
-        <li><a class="catalogicecream-item"> <img src="img/3_3.png" width="267" height="267"
-      alt="Сливочное с кусочками черного шоколада"> </a> </li>
-      <li><a class="catalogicecream-item"> <img src="img/3_4.png" width="267" height="267"
-    alt="Сливочное с мятным сиропом"> </a> </li>
-      </ul>
-    </div>
 
+      </ul>
+      </section>
+    </div>
 
     </main>
     <footer class="main-footer">
